@@ -42,6 +42,10 @@
         @include fs--body;
     }
 
+    h3.c-archives__title {
+        max-width: 80%;
+    }
+
     p {
         @include fs--body;
         color: #515862;

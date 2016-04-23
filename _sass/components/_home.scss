@@ -1,0 +1,29 @@
+/* ==========================================================================
+   Home
+   ========================================================================== */
+
+.c-home {
+    margin-bottom: 10rem; // 100px
+    margin-top: -5rem;
+}
+
+.c-home__profile-image {
+    margin: auto;
+    max-width: 30rem;
+    text-align: center;
+    @include fs--body;
+}
+
+.c-home__profile-about {
+    p {
+        @include fs--body;
+        color: #515862;
+    }
+}
+
+.c-home__profile-projects {
+    p {
+        @include fs--body;
+        color: #515862;
+    }
+}
