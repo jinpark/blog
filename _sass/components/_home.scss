@@ -17,10 +17,10 @@
         width: 100%;
         padding-top: 100%;
         background-size: cover;
-        background-image:  url("/assets/images/bowie.png");
         background-image: url("/assets/images/normal-afro.png");
         @include fade
     }
+
     .c-home__profile-image-holder:hover {
         background-image: url("/assets/images/bowie.png");
     }

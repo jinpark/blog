@@ -83,9 +83,9 @@
 }
 
 @mixin fade {
-    -webkit-transition: background-image 1s linear;
-    -moz-transition: background-image 1s linear;
-    -o-transition: background-image 1s linear;
-    -ms-transition: background-image 1s linear; 
-    transition: background-image 1s linear;
+    -webkit-transition: opacity 1s linear;
+    -moz-transition: opacity 1s linear;
+    -o-transition: opacity 1s linear;
+    -ms-transition: opacity 1s linear; 
+    transition: opacity 1s linear;
 }
