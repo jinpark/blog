@@ -44,6 +44,9 @@
 
     h3.c-archives__title {
         max-width: 80%;
+        @media screen and (max-width: $bp__sm) {
+            max-width: 100%;
+        }
     }
 
     p {

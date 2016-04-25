@@ -17,27 +17,32 @@ Setting up the ruby script was very simple. I just used the ruby example on Twil
 
 I knew I wanted to set something up to shoot off this script at a specific time. I knew that cron would work but when I googled, it seemed that the “at” command was a much better choice. Cron was made for repeated schedules while “at” was for one-offs. Running it was extremely simple. To send something off at a specific time, it was just
 
+```
 at 7:00 am
-
+```
 
 Or even
 
+```
 at now + 2 min
-
+```
 
 Awesome simple syntax.  There are more examples here. To check out all scheduled “at” jobs. It was just
 
+```
 at -l
-
+```
 
 So I just set up
 
-ruby <location of file> | at 9:00 am Dec 26 #which is thursday
+```
+ruby file.rb | at 9:00 am Dec 26 #which is thursday
+```
 
+and verified it with
 
-and checked it with
-
+```
 at -l
-
+```
 
 and it was done. Woot!

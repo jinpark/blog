@@ -11,11 +11,7 @@ Continuing from my last post about ionic, Electron, can be seen as a phonegap fo
 
 I tried the menubar example app and then quickly modified it to point to keep.google.com and it just worked. I was more or less pretty happy with how it looked and its performance! I created a new icon, made it preload the window so it works a bit faster, added a clean way to quit the app (right click on the icon) and then made it transparent by using some css hackery and stay on top so I can be reminded all the time of what I need to do for the day.
 
-
-
 The next test app I made was a pairing timer. I’m starting to teach programming more and I want to bring the joys of pairing to a new group of people. What I wanted here was a pairing app that has a set time (15 minutes), shows a notification and makes a sound when the times up. I ended up using the html5 notifications for mac and tray bubbles for windows and sounds using html5 audio. Most of these I was very familiar with due to it being exactly the same as front end development. Overall, it took a little bit over an hour to code up and have it up and running locally. You can download the mac version here. The source code is here. Feel free to make issues for bugs or feature requests.
-
-
 
 The problems I had were mostly at the end. Packaging the app became a pain in the butt, partly because I misunderstood what the packager was doing and the fact that building for windows required wine. Another problem was that for windows, you either need to run the exe file in the same folder as the node runtime or package it into an installer. The problem with the installer is that it requires it to be codesigned, which costs at least 200 usd for a certificate. For now, I’ll just create a shortcut and run it that way but we’ll see how that goes.
 

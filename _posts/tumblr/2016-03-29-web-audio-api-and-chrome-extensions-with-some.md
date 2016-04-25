@@ -8,7 +8,7 @@ tags:
 - hacks
 tumblr_url: http://blog.jinpark.net/post/141891260657/web-audio-api-and-chrome-extensions-with-some
 ---
-I was talking to another developer asking me what she needed to do to do some cool audio visualizations with soundcloud.
+I was talking to another developer, [Soeun](http://mojosoeun.github.io/), asking me what she needed to do to do some cool audio visualizations with soundcloud.
 
 The first thing I thought of was use the soundcloud API, download the file, run it through an audio analyizer and then do some visuzliations with d3 or some other visualization framework.
 
@@ -30,6 +30,6 @@ From what I found, this is commonly used for webRTC to share your screen for scr
 
 Since using this api required my code to not be in the content scope but in the background scope. I made modifications to my messaging code but kept most of the business logic the same. I needed to manually close the audio context and the tabCapture stream to be able to the switch between tabs and allow the audio stream to be passed back to original tab.
 
-The code is here https://github.com/jinpark/audio-visualizer and the original super hacky code is in this commit https://github.com/jinpark/audio-visualizer/tree/3401a5ffae729c59b99600f5b9288980f9e3c7fe
+The code is [here](https://github.com/jinpark/audio-visualizer) and the original super hacky code is in this [commit](https://github.com/jinpark/audio-visualizer/tree/3401a5ffae729c59b99600f5b9288980f9e3c7fe)
 
-Thanks to Soeun for the idea! http://mojosoeun.github.io/
+Thanks to [Soeun](http://mojosoeun.github.io/) for the idea!

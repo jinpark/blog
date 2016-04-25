@@ -19,24 +19,27 @@ I installed ubuntu 14.04 x64 and started using this digital ocean tutorial  to g
 
 So after everything was installed on the dev server and the backup/installation files were copied over to the html folder on the machine. Before you install, you should modify the permissions of the html folder so php could write to it. After that’s done, you also need to enable mod_rewrite with this command
 
+```
  sudo a2enmod rewrite 
-
+```
 
 add
 
+```
 <Directory /var/www/html>
 AllowOverride All
 Order allow,deny
 </Directory>
+```
 
+to your `/etc/apache2/sites-available/000-default.conf` file and then restart apache with
 
-to your /etc/apache2/sites-available/000-default.conf file and then restart apache with
-
+```
 sudo service apache2 restart 
+```
 
+This allows the `.htaccess` file to be created by wordpress so you can modify your permalinks.  Most of this is written here
 
-This allows the .htaccess file to be created by wordpress so you can modify your permalinks.  Most of this is written here
-
-Run through the installation and check your wp-config.php file to check for references to your old domain. I had to remove the caching plugin and reenable to get it to work.
+Run through the installation and check your `wp-config.php` file to check for references to your old domain. I had to remove the caching plugin and reenable to get it to work.
 
 Now everything should work!

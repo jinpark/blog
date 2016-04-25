@@ -81,3 +81,11 @@
     overflow: hidden;
     clip: rect(0 0 0 0);
 }
+
+@mixin fade {
+    -webkit-transition: background-image 1s linear;
+    -moz-transition: background-image 1s linear;
+    -o-transition: background-image 1s linear;
+    -ms-transition: background-image 1s linear; 
+    transition: background-image 1s linear;
+}
