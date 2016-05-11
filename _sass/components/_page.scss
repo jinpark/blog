@@ -22,6 +22,11 @@
     p {
         @include fs--meta;
     }
+
+    .st-search-bar {
+        max-width: 150px;
+        margin-top: 1rem;
+    }
 }
 
 .c-page__footer {
