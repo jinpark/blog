@@ -6,10 +6,10 @@
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     {% if page.title %}
-    <meta property="st:title" content="{{ page.st_title }}" >
+    <meta property="st:title" content="{{ page.title }}" >
     {% endif %}
     {% if page.date %}
-    <meta property="st:published_at" content="{{ page.date | date_to_xmlschema }}">
+    <meta property="st:published_at" content="{{ page.date | date: "%b %-d, %Y" }}">
     {% endif %}
 
     <link href='https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:300,400,900,400italic' rel='stylesheet' type='text/css'>
