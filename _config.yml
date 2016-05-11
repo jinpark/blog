@@ -4,12 +4,12 @@ description: Jin Park
 author: Jin Park
 email: jin+blog@jinpark.net
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://jinpark.github.io/" # the base hostname & protocol for your site
+url: "https://www.jinpark.net" # the base hostname & protocol for your site
 github_username:  jinpark
 
 # Build settings
 include: [_pages]
 markdown: kramdown
-permalink: /:year/:month/:title
+permalink: /blog/:year/:month/:title
 sass:
     style: compressed
