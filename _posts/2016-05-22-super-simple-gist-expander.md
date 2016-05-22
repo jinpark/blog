@@ -9,7 +9,7 @@ tags:
 
 I made a small chrome extension to fix one of my annoyances, the text boxes on github gists are way too small.
 
-![BeforeAfter]({{ site.url }}/assets/together-1280.png)
+![BeforeAfter]({{ site.url }}/assets/images/together-1280.png)
 
 Pretty simple codewise. Source code provided on [github](https://github.com/jinpark/gist-expander)
 
