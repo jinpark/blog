@@ -25,8 +25,14 @@
 
     input.st-search-bar {
         max-width: 150px;
-        margin-top: 1rem;
+        min-height: 33px;
+        box-sizing: border-box;
+        margin: 0;
     }
+}
+
+.c-page__header__links {
+    
 }
 
 .c-page__footer {

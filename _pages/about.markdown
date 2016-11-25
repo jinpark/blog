@@ -3,4 +3,5 @@ layout: content
 title: About
 permalink: /about/
 ---
-This is your about page where you write about yourself in third person and share some links for people to follow you. Take advantage of it.
+
+Hello! I'm Jin-Woo Park. I'm a software engineer working mostly on the web. My main tech stacks are front end javascript, python and ruby backends and APIs using Go. I work on a bunch of side projects for fun and help organize Django Girls Seoul.
