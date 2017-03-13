@@ -8,6 +8,9 @@ tags:
 - pi hole
 - dietpi
 ---
+
+![rpi-dns]({{site.baseurl}}/assets/images/rpidns.jpg)
+
 Currently for work, I’m writing a chromecast receiver that works with dash and widevine DRM. The chromecast connects wirelessly to my receiver app which is hosted on my work laptop on the same network.
 
 We have a few CORS issues here since the widevine server only has CORS support for a few domains, not including my local domain. The normal way to fix it would be to add CORS support for my local domain in the dev wide vine server, or to temporarily host the receiver app in a domain that has CORS support. 
