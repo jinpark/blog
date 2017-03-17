@@ -11,7 +11,7 @@ tags:
 
 ![rpi-dns]({{site.baseurl}}/assets/images/rpidns.jpg)
 
-Currently for work, I’m writing a chromecast receiver that works with dash and widevine DRM. The chromecast connects wirelessly to my receiver app which is hosted on my work laptop on the same network.
+I’m writing a chromecast receiver that works with dash and widevine DRM for work. The chromecast connects wirelessly to my receiver app which is hosted on my work laptop on the same network. When you access the video content on the chromecast, it calls the widevine server to be able to decode the encrypted content, and then decodes the media assets in the browser.
 
 We have a few CORS issues here since the widevine server only has CORS support for a few domains, not including my local domain. The normal way to fix it would be to add CORS support for my local domain in the dev wide vine server, or to temporarily host the receiver app in a domain that has CORS support. 
 
@@ -28,3 +28,5 @@ I installed pi-hole through [dietpi](http://dietpi.com/), a mini OS for the rasp
 After I set that, I set the default dns server on my router to point to my pi hole server and then everything was set. I was able to point any domain wherever I wanted and as long as you were connected to the airport extreme, you were redirected correctly.
 
 Next time I would need to do something like this, I would just run a dns server locally instead of on a raspberry pi. You can `brew install dnsmasq` easily and handle your dns rules locally. 
+
+NOTE: I realized after I did all this that the chromecast has its dns hardcoded internally to google's DNS. So everythign I did does not work.... I ended up buying a new router
