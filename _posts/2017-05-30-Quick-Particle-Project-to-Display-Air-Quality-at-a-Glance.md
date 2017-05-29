@@ -23,7 +23,7 @@ First, include the InternetButton library and instantiate it. In the setup block
 
 The full code is below.
 
-<script src=“https://gist.github.com/jinpark/83f30d36fce5c1d0da4ae90f33ea269a.js”></script>
+{% gist 83f30d36fce5c1d0da4ae90f33ea269a %}
 
 This was a fun quick 1 hour project that should hopefully let me know when I should put my mask on!
 
