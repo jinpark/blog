@@ -18,4 +18,4 @@ A few things I found,
 4. Single file components with scoped css is awesome. 
 5. There were a lot of fun anime this year!
 
-Check it out at [http://2017-anime.jinpark.net](2017-anime.jinpark.net)
+Check it out at [2017-anime.jinpark.net](http://2017-anime.jinpark.net)
