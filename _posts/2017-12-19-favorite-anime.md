@@ -19,3 +19,4 @@ A few things I found,
 5. There were a lot of fun anime this year!
 
 Check it out at [2017-anime.jinpark.net](http://2017-anime.jinpark.net)
+Code available at [github](https://github.com/jinpark/best-of-2017)
