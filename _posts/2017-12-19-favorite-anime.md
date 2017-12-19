@@ -7,7 +7,7 @@ tags:
 - vuejs
 - vue
 ---
-I made a small vue project to showcase some shows I liked in 2017.
+I made a small vuejs project to showcase some shows I liked in 2017.
 
 I glued together a few libraries and bashed together some code and it looks pretty nice! I did not use vue-router or even vuex. Just standard vue, some libraries and surge for deployment.
 
@@ -18,4 +18,4 @@ A few things I found,
 4. Single file components with scoped css is awesome. 
 5. There were a lot of fun anime this year!
 
-Check it out at http://2017-anime.jinpark.net
+Check it out at [http://2017-anime.jinpark.net](2017-anime.jinpark.net)
