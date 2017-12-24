@@ -61,3 +61,16 @@ I had a chance to review my setup and see where I could make upgrades and which 
 
 5. [The Lounge](https://thelounge.github.io/)
     - A web based bouncer and client for IRC. A fairly new thing for me, but it totally replaced textual, my previous irc client. Since its just a web app, you can run it on your phone and also, since its a PWA, web push and notifications work on any browser that supports it. So even on my android phone, it works like a true native app.
+
+
+### Services (that I pay for)
+
+1. [Paperspace](https://www.paperspace.com/)
+    - A workspace as a service that allows me to have a windows workstation whenever I need it. Pricing is super cheap, works amazingly well for being across the globe, and pretty fast customer service. 
+
+2. [Newsblur](http://www.newsblur.com/)
+    - My RSS reader of choice. Lays out the feed really cleanly, downloads the content beforehand so its really quick to retrieve content. 
+
+3. [Naver Music](http://music.naver.com/)
+    - I got this for "free" after buying their Wave voice assistant speaker. Well laid out interface for their android app, gets music up really quickly. Good replacement for spotify. Small note, their web interface sucks.
+
