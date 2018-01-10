@@ -48,7 +48,7 @@ I had a chance to review my setup and see where I could make upgrades and which 
 ### Home Server
 
 1. [Plex](https://plex.tv/web)
-    - Serves up my video files that I somehow have. Mostly stuff that isn't easily obtainable through legal sources. It's just a super nice piece of software. 
+    - Serves up my video files that I somehow have. Mostly stuff that isn't easily obtainable through legal sources. It's just a super nice piece of software. (I have a Plex Lifetime subscription. I just want to give them money!)
 
 2. [Sonarr](https://sonarr.tv/)
     - Schedules regular downloads of shows I can't get here due to licensing issues. Coupled with Plex, this makes a killer home media service.
