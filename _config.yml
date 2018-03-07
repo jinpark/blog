@@ -13,3 +13,5 @@ markdown: kramdown
 permalink: /blog/:year/:month/:title
 sass:
     style: compressed
+plugins:
+  - jekyll-sitemap
