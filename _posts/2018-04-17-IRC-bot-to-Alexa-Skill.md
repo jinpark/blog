@@ -21,5 +21,5 @@ One other thing that you need to do is to create and add a privacy policy to the
 
 This whole project took about an hour or so between the time I woke up and had breakfast, so there are more than a few things missing. I'm currently working on accessing the location provided by Amazon for each user instead of requiring the user to say the location when activating the skill. Also, I need to cache the geocode results so I don't hit the geocode api repeatedly. 
 
-The code is available at https://github.com/jinpark/airquality-alexa . 
+The code is available at https://github.com/jinpark/airquality-alexa . The skill is not availble yet on the Alexa app since there were a few bugs, I will get this rectified and have the link available here ASAP.
 
