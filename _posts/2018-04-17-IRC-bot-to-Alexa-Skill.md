@@ -19,7 +19,7 @@ I used [Flask-Ask](https://github.com/johnwheeler/flask-ask) as the backend fram
 
 One other thing that you need to do is to create and add a privacy policy to the app. I took a standard privacy policy since I was not recording any personal data from the user and just modified it a bit to fit this app.
 
-This whole project took about an hour or so between the time I woke up and had breakfast, so there are more than a few things missing. I'm currently working on accessing the location provided by Amazon for each user instead of requiring the user to say the location when activating the skill. Also, I need to cache the geocode results so I don't hit the geocode api repeatedly. 
+This whole project took about an hour or so between the time I woke up and had breakfast, so there are more than a few things missing. I'm currently working on accessing the location provided by Amazon for each user instead of requiring the user to say the location when activating the skill. ~~Also, I need to cache the geocode results so I don't hit the geocode api repeatedly.~~ The results are now cached, allowing for faster results.
 
-The code is available on [github](https://github.com/jinpark/airquality-alexa). The skill is not availble yet on the Alexa app since there were a few bugs, I will get this rectified and have the link available here ASAP.
+The code is available on [github](https://github.com/jinpark/airquality-alexa). ~~The skill is not availble yet on the Alexa app since there were a few bugs, I will get this rectified and have the link available here ASAP.~~ The skill is now live on Amazon [here](https://www.amazon.com/dp/B07BY8M8QS/).
 
