@@ -2,6 +2,7 @@
 layout: post
 title: Favorite Anime of 2010
 date: '2020-01-02T01:50:29+09:00'
+published: false
 tags:
   - anime
 ---

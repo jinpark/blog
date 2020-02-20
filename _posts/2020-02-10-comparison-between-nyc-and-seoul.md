@@ -2,6 +2,7 @@
 layout: post
 title: Comparison of Life Between NYC and Seoul
 date: '2020-02-10T01:50:29+09:00'
+published: false
 tags:
   - seoul
   - nyc
