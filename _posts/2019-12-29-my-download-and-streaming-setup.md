@@ -1,6 +1,5 @@
 ---
 layout: post
-#title: My Download and Streaming Setup
 date: '2019-12-28T01:50:29+09:00'
 tags:
   - plex
