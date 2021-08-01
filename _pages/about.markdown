@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Hello! I'm Jin-Woo Park. I'm a software engineer working mostly on the web. My main tech stacks are front end javascript, python and ruby backends and APIs using Go. I work on a bunch of side projects for fun. I also do some podcasting.
+Hello! I'm Jin-Woo Park. I'm a software engineer working mostly on the web. I work with ruby, python, go and javascript. I like working on both backend APIs and client side, including react-native. I work on some [side projects](./projects) for fun. I also do some podcasting.
