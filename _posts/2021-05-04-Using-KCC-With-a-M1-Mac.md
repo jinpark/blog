@@ -19,6 +19,12 @@ Surprisingly, at the core of Kindle Previewer is an updated version of KindleGen
 
 After you get KindleGen, you can point KCC to it so it can use it and run KCC as a rosetta (emulated) app and you should be able to run KCC. You might also need to [set the KindleGen executable](https://macworld.com/article/338843/how-to-force-a-native-m1-mac-app-to-run-as-an-intel-app-instead.html) to rosetta as well.
 
+To point KCC to the working KindleGen, you need to copy the executable to one of these three places.
+1. /Applications/Kindle Comic Converter.app/Contents/Resources,
+2. /usr/local/bin, or
+3. /usr/bin
+Thank you Alec Custer and crispedkrustn to help clarify this :)
+
 Here are the results.
 
 
