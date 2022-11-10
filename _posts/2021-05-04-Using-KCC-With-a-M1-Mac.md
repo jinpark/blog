@@ -23,6 +23,7 @@ To point KCC to the working KindleGen, you need to copy the executable to one of
 1. /Applications/Kindle Comic Converter.app/Contents/Resources,
 2. /usr/local/bin, or
 3. /usr/bin
+
 Thank you Alec Custer and crispedkrustn to help clarify this :)
 
 Here are the results.
