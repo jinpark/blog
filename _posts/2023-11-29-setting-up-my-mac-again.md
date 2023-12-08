@@ -5,11 +5,13 @@ date: '2023-11-28T01:50:29+09:00'
 tags:
   - mac
   - setup
+  - software
+  - macbook
 ---
 
 My Macbook Air M1 had some charging issues that required a logic board change so that meant that I needed to reinstall everything again.
 
-This is not my first time so I mostly could find and install the stuff I needed in a few hours.
+This is not the first time I had to do a full reinstall so this time I could mostly find and install the stuff I needed in a few hours.
 
 This is both my work and personal laptop so it will have both work and non work related software.
 
