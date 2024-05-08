@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Blog
-permalink: /blog/
+title: Reviews
+permalink: /reviews/
 ---
 <section class="c-archives">
-{% for post in site.categories.blog  %}
+{% for post in site.categories.reviews  %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 

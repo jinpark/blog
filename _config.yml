@@ -8,9 +8,9 @@ url: "https://www.jinpark.net" # the base hostname & protocol for your site
 github_username:  jinpark
 
 # Build settings
-include: [_pages]
+include: [blog, reviews, _pages]
 markdown: kramdown
-permalink: /blog/:year/:month/:title
+permalink: /:categories/:year/:month/:title
 sass:
     style: compressed
 plugins:
