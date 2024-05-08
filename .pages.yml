@@ -20,6 +20,26 @@ content:
       - name: body
         label: Body
         type: rich-text
+  - name: reviews
+    label: Reviews
+    type: collection
+    path: '_reviews'
+    view:
+      fields: [ title, published, date ]
+    fields:
+      - name: published
+        label: Published
+        type: boolean
+        default: true
+      - name: date
+        label: Date
+        type: date
+      - name: title
+        label: Title
+        type: string
+      - name: body
+        label: Body
+        type: rich-text
   - name: config
     label: Jekyll config
     path: _config.yml
