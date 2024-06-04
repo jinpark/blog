@@ -8,6 +8,12 @@ tags:
 - charger
 ---
 
+> **TL;DR**
+> 
+> Get any decent wattage GAN charger from a decent brand off aliexpress (Baseus, Toocki, etc) and get a smaller and cheaper multi port charger for your laptop and phone.
+
+---
+
 When GAN chargers became more common place, I bought one to bring with me in my bag instead of the huge 100w brick that they give you with the older intel macbook pros. Even though the charger wasnt 100 watts, the fact that it was half the size and half the weight made me love it. I used a Baseus charger for a while until I broke it by mistakely plugging it into itself during a vacation. I bought a few different chargers in the past few years to keep at my place and to keep as an extra in a bag and they worked great for me so far.
 
 I am using the chargers for my macbook air m1 and my iphone se 2020. I keep one in my backpack along with a usb-c pd 100w cable and a 60w usb c and lightning multi cable. I use the 65w one in my main backpack, 40w one next to the bed, 100w one at my work desk.
