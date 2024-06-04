@@ -2,10 +2,14 @@
 layout: post
 title: Using KCC (Kindle Comic Converter) with an M1 Mac
 date: '2021-05-04T01:50:29+09:00'
+updated: '2024-06-04T01:50:29+09:00'
 tags:
   - kindle
   - manga
 ---
+
+*Update 2024/07/04*: Note for new readers. I wrote this post when the M1 and ARM macs were very new and a lot of software hasn't been recompiled for the new architecture. If you just follow the readme in the [Kindle Comic Converter](https://kcc.iosphe.re/) github, you shouldn't need to do any of what I did below!
+
 I'm a big fan of [Kindle Comic Converter](https://kcc.iosphe.re/). Its a python GUI app that converts epub, cbz, png, jpg, etc. files that make up a comic or manga, into a compatible file that works with the amazon kindle and other ereaders. I have an older amazon kindle paperwhite so my experiences are only with KCC and the paperwhite 3. It also intelligently supports upscaling and cover generation. If you have an epub manga that you got off the back of a truck or more likely, one rented from overdrive/library but in epub format that you want to read on your older kindle, I would recommend that you try out KCC.
 
 The basic feature set is
