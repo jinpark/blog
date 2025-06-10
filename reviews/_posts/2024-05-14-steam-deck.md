@@ -6,6 +6,7 @@ tags:
 - steam deck
 - computer
 - gaming
+published: false 
 ---
 
 ![steamdeck]({{site.baseurl}}/assets/images/steamdeck.jpg)[^1]
