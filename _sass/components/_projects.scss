@@ -6,6 +6,12 @@
     margin-bottom: 10rem;
 }
 
+.c-projects__older > summary {
+    @include fs--heading-3;
+    cursor: pointer;
+    margin-bottom: 2.5rem;
+}
+
 .c-projects__project {
     padding-bottom: 2.5rem;
 
@@ -24,4 +30,44 @@
     margin-top: -3em;
     margin-bottom: 2em;
     font-style: italic;
+}
+
+.c-projects__app-store {
+    display: inline-block;
+    margin: 10px;
+
+    img {
+        display: block;
+        width: auto;
+        height: 40px;
+    }
+}
+
+.c-projects__heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #EFF1F3;
+
+    h2 {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    .c-projects__app-store {
+        flex-shrink: 0;
+    }
+}
+
+.c-projects__widget {
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    margin: 2rem auto 1rem;
+    border-radius: 1.6rem;
 }

@@ -5,8 +5,32 @@ permalink: /projects/
 ---
 <div class="c-projects">
     <div class="c-projects__about">
-        A lot of these projects were done just for fun. Lots of cruddy code, lots of interesting code, lots of fun code! (This is a bit outdated...)
+        A lot of these projects were done just for fun. Lots of cruddy code, lots of interesting code, lots of fun code!
     </div>
+    <div class="c-projects__project">
+        <div class="c-projects__heading">
+            <h2><a href="https://apps.apple.com/app/id6792679664">Hourlines</a></h2>
+            <a class="c-projects__app-store" href="https://apps.apple.com/app/id6792679664" aria-label="Download Hourlines on the App Store">
+                <img src="{{ '/assets/images/app-store-en.svg' | relative_url }}" alt="Download on the App Store" height="40">
+            </a>
+        </div>
+        <p>An iPhone app and widget for comparing working hours across time zones. Each city gets a strip of hours, with colors for working hours, morning, evening, and night, so it's easy to see when everyone is around and find a good time to call or send a message.</p>
+        <p>Built with React Native, Expo, and TypeScript, with native iOS widgets using expo-widgets. Handles daylight saving time and half-hour offsets, with customizable cities and support for eight languages.</p>
+        <img class="c-projects__widget" src="{{ '/assets/images/hourlines-widget.png' | relative_url }}" alt="Hourlines Home Screen widgets comparing hours in Berlin, Seoul, New York, and other cities" width="1170" height="2532" loading="lazy">
+    </div>
+    <div class="c-projects__project">
+        <div class="c-projects__heading">
+            <h2><a href="https://apps.apple.com/app/id6793663747">Korea FX</a></h2>
+            <a class="c-projects__app-store" href="https://apps.apple.com/app/id6793663747" aria-label="Download Korea FX on the App Store">
+                <img src="{{ '/assets/images/app-store-en.svg' | relative_url }}" alt="Download on the App Store" height="40">
+            </a>
+        </div>
+        <p>An iPhone app and Home Screen widget for checking Korean bank exchange rates. Choose a bank and currencies to compare cash and remittance buy and sell rates, explore up to 30 days of rate history, and set target-rate alerts.</p>
+        <p>Built with React Native, Expo, and TypeScript, with native iOS widgets using expo-widgets. Supports rates from Hana, Shinhan, KB Kookmin, Woori, SC Bank, and NH Bank, with Korean and English interfaces.</p>
+        <img class="c-projects__widget" src="{{ '/assets/images/korea-fx-widget.png' | relative_url }}" alt="Korea FX Home Screen widgets showing KB Kookmin Bank buy and sell exchange rates" width="1170" height="2532" loading="lazy">
+    </div>
+    <details class="c-projects__older">
+        <summary>Older projects</summary>
     <div class="c-projects__project">
         <h2><a href="https://pokemon-go-team.herokuapp.com">Share Your Pokemon Go Team!</a></h2>
         <p>I tried to ride the Pokemon Go wave. A way to share your pokemon go team with your friends. Take in a screenshot of your pokemon go team page and returns a sharable webpage to show your friends. Uses OCR to figure out what pokemon you have.</p>
@@ -58,4 +82,5 @@ permalink: /projects/
         <p>Flask-Ask for the backend. Mapquest Geocode API for geocoding, AirVisual API for air quality information. Heroku for hosting.</p>
         <p>Code available at <a href="https://github.com/jinpark/airquality-alexa">github</a></p>
     </div>
+    </details>
 </div>
