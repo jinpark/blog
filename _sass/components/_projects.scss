@@ -71,3 +71,13 @@
     margin: 2rem auto 1rem;
     border-radius: 1.6rem;
 }
+
+.c-projects__screenshot {
+    display: block;
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    margin: 2rem auto 1rem;
+    border-radius: 14px;
+    box-shadow: 0 20px 40px rgba(20, 24, 60, .2);
+}

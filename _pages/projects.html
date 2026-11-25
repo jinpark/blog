@@ -29,6 +29,12 @@ permalink: /projects/
         <p>Built with React Native, Expo, and TypeScript, with native iOS widgets using expo-widgets. Supports rates from Hana, Shinhan, KB Kookmin, Woori, SC Bank, and NH Bank, with Korean and English interfaces.</p>
         <img class="c-projects__widget" src="{{ '/assets/images/korea-fx-widget.png' | relative_url }}" alt="Korea FX Home Screen widgets showing KB Kookmin Bank buy and sell exchange rates" width="1170" height="2532" loading="lazy">
     </div>
+    <div class="c-projects__project">
+        <h2><a href="https://jinpark.github.io/quicklook-seek/">QuickLook Seek</a></h2>
+        <p>A tiny macOS menu bar app that lets you skip around Quick Look videos with the arrow keys. Left and right jump back and forward 5 seconds, and Shift jumps 30 seconds, with both step sizes adjustable from the menu bar. Arrow keys only get intercepted while a Quick Look window with a video or audio timeline is open, so everywhere else they work like normal.</p>
+        <p>Written in Swift. It works by reading Quick Look's timeline slider through the Accessibility API and setting its value, which also means it can't be sandboxed for the Mac App Store, so it's distributed as a signed and notarized download with updates through Sparkle. Started life as a Hammerspoon script. Free and open source, code available <a href="https://github.com/jinpark/quicklook-seek">here</a>.</p>
+        <img class="c-projects__screenshot" src="{{ '/assets/images/quicklook-seek-demo.png' | relative_url }}" alt="A Quick Look video window showing a 5 second skip forward, with the timeline at 0:47 of 3:15" width="1280" height="880" loading="lazy">
+    </div>
     <details class="c-projects__older">
         <summary>Older projects</summary>
     <div class="c-projects__project">
