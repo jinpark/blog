@@ -4,6 +4,7 @@ title: Analysis of irc logs
 date: '2014-05-15T21:38:05+09:00'
 tags: []
 tumblr_url: http://blog.jinpark.net/post/85872952662/analysis-of-irc-logs
+published: true
 ---
 I’ve been on IRC for a while (5 years or so).
 

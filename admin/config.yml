@@ -1,0 +1,64 @@
+# Sveltia CMS config for /admin. Docs: https://sveltiacms.app/docs
+# Sign in with "Sign In with Token" using a fine-grained GitHub token
+# scoped to jinpark/blog with Contents: Read and write.
+
+backend:
+  name: github
+  repo: jinpark/blog
+  branch: gh-pages
+  commit_messages:
+    create: 'Create {{collection}} “{{slug}}” (via admin)'
+    update: 'Update {{collection}} “{{slug}}” (via admin)'
+    delete: 'Delete {{collection}} “{{slug}}” (via admin)'
+    uploadMedia: 'Upload “{{path}}” (via admin)'
+    deleteMedia: 'Delete “{{path}}” (via admin)'
+
+site_url: https://www.jinpark.net
+media_folder: assets/images
+public_folder: /assets/images
+
+# Don't write empty optional fields (e.g. tags: []) into front matter.
+output:
+  omit_empty_optional_fields: true
+
+collections:
+  - name: posts
+    label: Posts
+    label_singular: Post
+    folder: blog/_posts
+    extension: md
+    format: frontmatter
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    sortable_fields:
+      fields: [date, title]
+      default: { field: date, direction: descending }
+    summary: '{{title}} — {{published | ternary("published", "draft")}}'
+    fields:
+      - { name: layout, label: Layout, widget: hidden, default: post }
+      - { name: title, label: Title, widget: string }
+      - { name: date, label: Date, widget: datetime }
+      # New posts start as drafts. Jekyll skips published: false when building.
+      - { name: published, label: Published, widget: boolean, default: false }
+      - { name: tags, label: Tags, widget: list, required: false }
+      - { name: body, label: Body, widget: markdown, modes: [raw, rich_text] }
+
+  - name: reviews
+    label: Reviews
+    label_singular: Review
+    folder: reviews/_posts
+    extension: md
+    format: frontmatter
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    sortable_fields:
+      fields: [date, title]
+      default: { field: date, direction: descending }
+    summary: '{{title}} — {{published | ternary("published", "draft")}}'
+    fields:
+      - { name: layout, label: Layout, widget: hidden, default: review }
+      - { name: title, label: Title, widget: string }
+      - { name: date, label: Date, widget: datetime }
+      - { name: published, label: Published, widget: boolean, default: false }
+      - { name: tags, label: Tags, widget: list, required: false }
+      - { name: body, label: Body, widget: markdown, modes: [raw, rich_text] }

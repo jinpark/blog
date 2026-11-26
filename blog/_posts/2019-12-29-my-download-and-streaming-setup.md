@@ -4,6 +4,7 @@ date: '2019-12-28T01:50:29+09:00'
 tags:
   - plex
   - streaming
+published: true
 ---
 I went from 2 posts a year to 1...
 

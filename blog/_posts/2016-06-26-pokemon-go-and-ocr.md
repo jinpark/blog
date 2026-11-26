@@ -5,6 +5,7 @@ date: '2016-07-26T12:35:57+09:00'
 tags:
 - pokemon go
 - ocr
+published: true
 ---
 
 I wanted to make a quick and easy webapp for Pokemon Go and I ended up stealing my friend [Trond](http://github.com/haste)'s idea for his ingress [http://tie.rs/](http://tie.rs/) stats app. 

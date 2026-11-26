@@ -8,6 +8,7 @@ tags:
 - Battery
 - ZMI Battery Pack
 - 3M Hook and Loop
+published: true
 ---
 I just realized I wrote only 2 blog posts this year. :(
 

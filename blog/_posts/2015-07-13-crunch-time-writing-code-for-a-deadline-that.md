@@ -4,6 +4,7 @@ title: '"Crunch time" - Writing code for a deadline that has already past!'
 date: '2015-07-13T05:25:05+09:00'
 tags: []
 tumblr_url: http://blog.jinpark.net/post/123967996877/crunch-time-writing-code-for-a-deadline-that
+published: true
 ---
 So continuing from my previous post where I wrote a podcast site using jekyll and markdown and then rewrote the whole site in django…
 

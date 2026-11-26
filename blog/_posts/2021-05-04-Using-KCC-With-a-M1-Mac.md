@@ -6,6 +6,7 @@ updated: '2024-06-04T01:50:29+09:00'
 tags:
   - kindle
   - manga
+published: true
 ---
 
 *Update 2024/07/04*: Note for new readers. I wrote this post when the M1 and ARM macs were very new and a lot of software hasn't been recompiled for the new architecture. If you just follow the readme in the [Kindle Comic Converter](https://kcc.iosphe.re/) github, you shouldn't need to do any of what I did below!

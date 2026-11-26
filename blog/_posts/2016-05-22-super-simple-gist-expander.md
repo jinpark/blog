@@ -5,6 +5,7 @@ date: '2016-05-22T12:35:57+09:00'
 tags:
 - github
 - gist
+published: true
 ---
 
 I made a small chrome extension to fix one of my annoyances, the text boxes on github gists are way too small.

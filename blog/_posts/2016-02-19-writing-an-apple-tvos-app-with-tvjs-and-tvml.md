@@ -8,6 +8,7 @@ tags:
 - tvml
 - js
 tumblr_url: http://blog.jinpark.net/post/139596438182/writing-an-apple-tvos-app-with-tvjs-and-tvml
+published: true
 ---
 tl;dr version: I made an Apple TV app with atvjs and it was fun and easy.
 

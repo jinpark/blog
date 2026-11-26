@@ -7,6 +7,7 @@ tags:
 - web audio api
 - hacks
 tumblr_url: http://blog.jinpark.net/post/141891260657/web-audio-api-and-chrome-extensions-with-some
+published: true
 ---
 I was talking to another developer, [Soeun](http://mojosoeun.github.io/), asking me what she needed to do to do some cool audio visualizations with soundcloud.
 

@@ -7,6 +7,7 @@ tags:
   - setup
   - software
   - macbook
+published: true
 ---
 
 My Macbook Air M1 had some charging issues that required a logic board change so that meant that I needed to reinstall everything again.

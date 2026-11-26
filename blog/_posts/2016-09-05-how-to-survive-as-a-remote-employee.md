@@ -5,6 +5,7 @@ date: '2016-09-05T12:35:57+09:00'
 tags:
 - remote work
 - remote working
+published: true
 ---
 
 Congratulations! You got a remote job. Your company trusts you enough to be an adult and handle yourself like a responsible human being. Now what?

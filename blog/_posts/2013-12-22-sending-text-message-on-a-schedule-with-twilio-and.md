@@ -6,6 +6,7 @@ tags:
 - twilio
 - sms
 tumblr_url: http://blog.jinpark.net/post/70762225754/sending-text-message-on-a-schedule-with-twilio-and
+published: true
 ---
 My friend Anna is in Canada right now. Canada has delicious things that America does not have and I would like Anna to bring me some.
 

@@ -6,6 +6,7 @@ tags:
 - anime
 - vuejs
 - vue
+published: true
 ---
 I made a small vuejs project to showcase some shows I liked in 2017.
 

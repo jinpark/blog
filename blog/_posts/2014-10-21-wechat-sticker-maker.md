@@ -4,6 +4,7 @@ title: Wechat Sticker Maker
 date: '2014-10-21T01:32:19+09:00'
 tags: []
 tumblr_url: http://blog.jinpark.net/post/100565821987/wechat-sticker-maker
+published: true
 ---
 One of my friends visited me in Korea and she got me hooked into Wechat, another messaging platform. The cool thing is that it allows you to use custom gifs as stickers! (Yes, I know there are other messaging platforms that do this)
 

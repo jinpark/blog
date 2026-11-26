@@ -7,6 +7,7 @@ tags:
 - python
 - tutum
 tumblr_url: http://blog.jinpark.net/post/115645836957/docker-and-tutum
+published: true
 ---
 Actually Docker, Docker Compose, Circle CI, Docker Hub, Digital Ocean, HAProxy and Tutum
 

@@ -10,6 +10,7 @@ tags:
 - Echo
 - Flask
 - Flask-Ask
+published: true
 ---
 I've been running an IRC bot on a small network that I run for a while (10 years?). One of its features is that it can tell you about the air quality in the general vicinity of where you are (assuming you have added your location data previously). It's a fairly simple little python script that just calls a geocoding API to convert a location to a latitude and longitude and uses an air quality API to return the AQI ([Air Quality Index](https://en.wikipedia.org/wiki/Air_quality_index)) value. The code for that is available [here](https://github.com/jinpark/phenny-modules/blob/master/air-quality.py). I talked about a IOT version of this in a [previous post](https://www.jinpark.net/blog/2017/05/Quick-Particle-Project-to-Display-Air-Quality-at-a-Glance).
 

@@ -4,6 +4,7 @@ title: Writing Desktop Apps with Electron
 date: '2015-10-17T12:29:59+09:00'
 tags: []
 tumblr_url: http://blog.jinpark.net/post/131356288527/writing-desktop-apps-with-electron
+published: true
 ---
 One of my long term ‘projects’ was to figure out a way for me to look at my todo list more frequently. I spend most of my time on the computer at a browser window, at the terminal or at the IDE, so I needed something that would stay on top of all of those and force me to look at it. The hack I originally had was to make a todo app (Any.do) window transparent and force it above all the other windows. Afloat was what I used, and it required a decent amount of weird hackery and didn’t even behave consistently across restarts. While this kinda worked, all the apps enforced minimum window sizes and generally did not fit my needs. Time to keep looking…
 

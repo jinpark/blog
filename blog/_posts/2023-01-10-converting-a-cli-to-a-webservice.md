@@ -7,6 +7,7 @@ tags:
   - web
   - programming
   - python
+published: true
 ---
 
 Surprisingly, I've been getting "a lot" (50 hits) of traffic on my [using kcc on m1 blog post](https://www.jinpark.net/blog/2021/05/Using-KCC-With-a-M1-Mac). I even had a few people email me for help on how to get it working.

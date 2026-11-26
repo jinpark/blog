@@ -5,6 +5,7 @@ date: '2017-01-02T12:35:57+09:00'
 tags:
 - lua
 - advent of code
+published: true
 ---
 A friend of mine on IRC, haste, told me about Advent of Code recently. Its a coding challenge in the style of an advent calendar, where you get a small problem to do every day in december until christmas. I wanted to learn Lua so I took the chance and started doing the challenges in lua. I have my solutions up on https://github.com/jinpark/adventofcode2016
 

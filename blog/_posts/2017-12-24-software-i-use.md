@@ -6,6 +6,7 @@ tags:
 - mac
 - server
 - software
+published: true
 ---
 I've been changing my computers pretty frequently recently due to hard drive failures, un-hackintoshing my computer, laptop screen failures etc, so I had to reinstall and re-setup my computer a bunch of times. 
 

@@ -7,6 +7,7 @@ tags:
 - python
 - imagemagick
 tumblr_url: http://blog.jinpark.net/post/114405591567/creating-an-image-microservice-with-flask
+published: true
 ---
 At work (*DramaFever*), we have a microservice that allows for cropping, resizing and caching of images. This allows us to use the same assets that a designer would create and resize it as needed. It also allows for edge caching through a CDN for users to get the images faster. A very useful service.
 

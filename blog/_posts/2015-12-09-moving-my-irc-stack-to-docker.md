@@ -6,6 +6,7 @@ tags:
 - docker
 - irc
 tumblr_url: http://blog.jinpark.net/post/134843721847/moving-my-irc-stack-to-docker
+published: true
 ---
 Recently, I got a good deal from a cloud provider company called cloudatcost (not linking on purpose here since they seem pretty sketchy) and wanted to move some of my personal services on there.
 

@@ -9,6 +9,7 @@ tags:
 - WSL
 - Windows Subsystem for Linux
 - Ubuntu
+published: true
 ---
 I've switched jobs recently and needed a new laptop for work, which includes working on a React Native app.
 

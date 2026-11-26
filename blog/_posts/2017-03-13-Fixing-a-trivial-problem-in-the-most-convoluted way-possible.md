@@ -7,6 +7,7 @@ tags:
 - raspberry pi
 - pi hole
 - dietpi
+published: true
 ---
 
 ![rpi-dns]({{site.baseurl}}/assets/images/rpidns.jpg)

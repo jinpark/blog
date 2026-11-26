@@ -7,6 +7,7 @@ tags:
 - jekyll
 - github
 tumblr_url: http://blog.jinpark.net/post/110243175622/using-jekyllgithub-pages-to-host-a-podcast-site
+published: true
 ---
 Two of my friends (Ahnmin and Bobby) at work started making a podcast together called **Something Sunshine** and like any podcast, they needed a website. Since this was just a fun project for them, I wanted to make sure that they did not have to pay for anything.
 

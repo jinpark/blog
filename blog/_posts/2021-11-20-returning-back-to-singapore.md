@@ -6,6 +6,7 @@ tags:
   - singapore
   - korea
   - vtl
+published: true
 ---
 
 Please note that this blog post is probably extremely niche information.

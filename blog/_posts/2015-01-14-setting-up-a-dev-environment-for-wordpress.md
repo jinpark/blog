@@ -6,6 +6,7 @@ tags:
 - wordpress
 - server
 tumblr_url: http://blog.jinpark.net/post/108063835707/setting-up-a-dev-environment-for-wordpress
+published: true
 ---
 This might be extremely boring for anyone who maintains servers as it is the most basic level stuff that you guys probably know :P
 

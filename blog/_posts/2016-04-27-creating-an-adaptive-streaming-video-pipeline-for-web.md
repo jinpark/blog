@@ -5,6 +5,7 @@ date: '2016-04-27T11:08:55.847Z'
 tags:
 - video
 - dash
+published: true
 ---
 As I have previously written before, I have a small video streaming website (and app) for watching simpsons. Currently, it streams 1080p h264 mp4s with ~320 aac audio. While this is fine for local use and users with fast internet, it does take a while to start and seek since the amount of data it needs to buffer is pretty large.
 

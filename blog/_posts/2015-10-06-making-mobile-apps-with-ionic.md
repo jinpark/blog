@@ -4,6 +4,7 @@ title: Making mobile apps with Ionic
 date: '2015-10-06T22:20:04+09:00'
 tags: []
 tumblr_url: http://blog.jinpark.net/post/130656646607/making-mobile-apps-with-ionic
+published: true
 ---
 As a developer that mostly works on the web, mobile apps always seemed like it was a big pain to learn. I don’t have java or obj-c/swift experience and while I did take an android MOOC course sponsored by google, I came out with more of a basic understanding rather than a practical understanding.
 
